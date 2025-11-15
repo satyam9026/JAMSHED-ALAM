@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("imagea.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+}
+
+.main-title {
+    font-size: 38px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+
+.subscribers {
+    font-size: 55px;
+    font-weight: bold;
+    color: #d6ff1f;
+    margin: 0;
+}
+
+.subs-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    background: #ffea00;
+    color: black;
+    padding: 15px 25px;
+    display: inline-block;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.profile-box {
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 25px auto;
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.bottom-btn {
+    margin-top: 10px;
+}

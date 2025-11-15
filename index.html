@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMSHED ALAM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="main-title">JAMSHED ALAM</h1>
+    <p class="subtitle">Number.1 Cricket Prediction Channel</p>
+
+    <!-- Subscriber Auto Counter -->
+    <h2 class="subscribers" id="subCounter">106,897</h2>
+    <p class="subs-text">SUBSCRIBERS</p>
+
+    <a href="https://t.me/+w5XyIjH0wiNiYmI1" class="join-btn">JOIN THE CHANNEL NOW 🚀</a>
+
+    <div class="profile-box">
+        <img src="image.png" alt="Profile" class="profile-img">
+    </div>
+
+    <a href="https://t.me/+w5XyIjH0wiNiYmI1" class="join-btn bottom-btn">JOIN THE CHANNEL NOW 🚀</a>
+
+    <p class="footer-text">MAUKA HAI LAKHO KAMANE KA</p>
+
+</div>
+
+
+<!-- 🔥 Auto Subscriber Counter Script -->
+<script>
+    let target = 106897;         // Final subscriber count
+    let duration = 2000;         // Animation duration in ms
+    let frameRate = 30;          // Updates per second
+
+    let steps = duration / (1000 / frameRate);
+    let increment = target / steps;
+
+    let counter = document.getElementById("subCounter");
+    let current = 0;
+
+    let updateCounter = setInterval(() => {
+        current += increment;
+
+        if (current >= target) {
+            current = target;
+            clearInterval(updateCounter);
+        }
+
+        counter.innerText = Math.floor(current).toLocaleString();
+    }, 1000 / frameRate);
+</script>
+
+</body>
+</html>
